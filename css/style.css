@@ -1,0 +1,85 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+	background-color: #F3FFD0;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 48px; 
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	background-color: #C8A2C8;
+}
+
+
+.active{
+	background: white;
+    text-transform: capitalize;
+	text-align: center;
+}
+
+.active a{
+	text-decoration: none;
+}
+
+.skip{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	display: inline-block;
+	border: 3px solid black;
+}
+/*Style the images*/
+img{
+    height: 200px;
+    width:auto;
+    border: 4px solid #000000;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.active{
+	background-color: #C8A2C8;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+
+/*Add borders around the main components and some
+space too*/
+header, nav, main, h1, footer{
+	border: 2px solid grey;
+	margin: 10px 0;
+}
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav li{
+	background-color: #e4e6d4;
+	padding:10px;
+	width:25%;
+	border:1px solid black;
+	display: inline-block;
+	width: 20%;
+}
+.img:nth-child(odd){
+text-align: justify;
+
+}
+
+
+/*Added this so the links stay the same color*/
+a:visited{color:#000000}
+
